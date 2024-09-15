@@ -19,6 +19,7 @@ import com.example.conversationlisting.utilities.DateFormatConverter;
 public class chatListingAdapter extends RecyclerView.Adapter<chatListingAdapter.VHolder> {
     private Context context;
     private Data items;
+    private Boolean flag;
 
     public chatListingAdapter(Context context, Data items) {
         this.context = context;
