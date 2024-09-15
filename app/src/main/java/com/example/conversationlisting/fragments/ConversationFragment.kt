@@ -30,6 +30,7 @@ class ConversationFragment() : Fragment() , ConversationListingAdapter.OnConvers
     var currentItems=0;var totalItems=0;var scrollOutItems=0
     var madapter: ConversationListingAdapter?=null
     var notify:notifyActivity?=null
+    var isTrue:Boolean=false
 
     override fun onAttach(context: Context) {
         super.onAttach(context)
